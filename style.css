@@ -1,0 +1,41 @@
+*{
+    text-align: center;
+
+}
+.fragment{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 0 250px;
+}
+h1{
+    color: red;
+}
+h2{
+    color: purple;
+}
+h3{
+    color: rgb(155, 136, 31);
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content.abo {
+    align-items: start;
+}
+.content.abo *{
+    text-align: left;
+}
+ul{
+    width: max-content;
+}
+.links{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.pro img{
+    width: 400px;
+}
